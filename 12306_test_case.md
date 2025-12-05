@@ -52,4 +52,7 @@
 	搜索餐饮服务 / Search dining services
 	显示可预订商家 / Show available merchants
 	查看商家详情 / View merchant details
-- 常用地址管理(TODO)
+- 常用地址	
+	添加常用地址 / Add addresses
+	删除常用地址 / Delete saved address
+	遗漏必填字段 / Missing required fields

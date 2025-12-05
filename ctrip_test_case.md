@@ -52,4 +52,7 @@
     查看国内机场攻略 / View domestic airport guides
 	查看乘机流程 / View boarding procedures
 	查看机场电话 / View airport phone numbers
-- 常用地址管理(TODO)
+- 常用地址	
+	添加常用地址 / Add addresses
+	删除常用地址 / Delete saved address
+	遗漏必填字段 / Missing required fields

@@ -1,0 +1,15 @@
+{
+  "name": "遗漏必填字段",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "首页右上角点击“尊贵的用户”", "expectedResult": "" },
+    { "action": "侧边栏点击“常用信息”，展开后点击“常用地址”", "expectedResult": "进入常用地址页面" },
+    { "action": "点击“新增”", "expectedResult": "显示新增地址表单" },
+    { "action": "收件人姓名输入User", "expectedResult": "" },
+    { "action": "所在地区选择上海省、上海市、闵行区", "expectedResult": "" },
+    { "action": "详细地址填写SJTU", "expectedResult": "" },
+    { "action": "不填写手机号码，点击“保存”", "expectedResult": "在手机号码输入框右侧显示“请输入正确的手机号码”" }
+  ],
+  "createdAt": "2025-12-05T00:00:00.000Z",
+  "updatedAt": "2025-12-05T00:00:00.000Z"
+}
