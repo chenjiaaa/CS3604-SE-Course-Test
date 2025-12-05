@@ -1,9 +1,16 @@
 {
+  "id": "test_misweowt_0.tow8n6hyt1c",
   "name": "View Passengers",
-  "url": "TARGET_URL",
+  "url": "${12306_URL}",
   "actions": [
-    { "action": "After login, click username at top on homepage", "expectedResult": "" },
-    { "action": "Enter \"Personal Center\" and click \"Common Info\" → \"Passengers\"", "expectedResult": "Show list of passengers linked to current account (default passenger)" }
+    {
+      "action": "After login, click username at top on homepage",
+      "expectedResult": ""
+    },
+    {
+      "action": "Enter \"Personal Center\" and click \"Common Info\" → \"Passengers\"",
+      "expectedResult": "Show list of passengers linked to current account (default passenger)"
+    }
   ],
   "createdAt": "2025-12-04T00:00:00.000Z",
   "updatedAt": "2025-12-04T00:00:00.000Z"

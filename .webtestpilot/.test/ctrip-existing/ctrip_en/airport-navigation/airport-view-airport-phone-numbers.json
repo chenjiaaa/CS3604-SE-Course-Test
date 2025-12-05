@@ -1,9 +1,16 @@
 {
+  "id": "test_misweq86_0.bp7t5k3353",
   "name": "View Airport Phone Numbers",
-  "url": "TARGET_URL",
+  "url": "${CTRIP_URL}",
   "actions": [
-    { "action": "On airport guides page click hot airport \"Beijing Capital International Airport\"", "expectedResult": "Navigate to the airport detail page" },
-    { "action": "Click \"Airport Phone\" tab", "expectedResult": "Show fixed airport phone information (e.g., inquiry and service numbers)" }
+    {
+      "action": "On airport guides page click hot airport \"Beijing Capital International Airport\"",
+      "expectedResult": "Navigate to the airport detail page"
+    },
+    {
+      "action": "Click \"Airport Phone\" tab",
+      "expectedResult": "Show fixed airport phone information (e.g., inquiry and service numbers)"
+    }
   ],
   "createdAt": "2025-12-05T00:00:00.000Z",
   "updatedAt": "2025-12-05T00:00:00.000Z"

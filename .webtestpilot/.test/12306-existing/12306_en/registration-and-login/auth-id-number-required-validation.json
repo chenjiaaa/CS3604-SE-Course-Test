@@ -1,12 +1,28 @@
 {
+  "id": "test_miswep81_0.t8kr1pmgpsa",
   "name": "ID Number Required Validation (Registration)",
-  "url": "TARGET_URL",
+  "url": "${12306_URL}",
   "actions": [
-    { "action": "Click \"Register\" on the homepage", "expectedResult": "Navigate to the registration page" },
-    { "action": "Fill username, password, confirm password, name, phone", "expectedResult": "" },
-    { "action": "Leave \"ID number\" field empty", "expectedResult": "" },
-    { "action": "Check \"I have read and agree to the privacy terms\"", "expectedResult": "" },
-    { "action": "Click \"Next\"", "expectedResult": "Show validation: ID number is required" }
+    {
+      "action": "Click \"Register\" on the homepage",
+      "expectedResult": "Navigate to the registration page"
+    },
+    {
+      "action": "Fill username, password, confirm password, name, phone",
+      "expectedResult": ""
+    },
+    {
+      "action": "Leave \"ID number\" field empty",
+      "expectedResult": ""
+    },
+    {
+      "action": "Check \"I have read and agree to the privacy terms\"",
+      "expectedResult": ""
+    },
+    {
+      "action": "Click \"Next\"",
+      "expectedResult": "Show validation: ID number is required"
+    }
   ],
   "createdAt": "2025-12-04T00:00:00.000Z",
   "updatedAt": "2025-12-04T00:00:00.000Z"

@@ -1,11 +1,24 @@
 {
+  "id": "test_misweqbr_0.oquhi2h4q8g",
   "name": "Search Nanjing-Shanghai flights on 2025-12-16",
-  "url": "TARGET_URL",
+  "url": "${CTRIP_URL}",
   "actions": [
-    { "action": "Enter origin 'Nanjing (NKG)'", "expectedResult": "" },
-    { "action": "Enter destination 'Shanghai (SHA)'", "expectedResult": "" },
-    { "action": "Select departure date '2025-12-16'", "expectedResult": "" },
-    { "action": "Click 'Search'", "expectedResult": "Show flight list for NKG→SHA on 2025-12-16" }
+    {
+      "action": "Enter origin 'Nanjing (NKG)'",
+      "expectedResult": ""
+    },
+    {
+      "action": "Enter destination 'Shanghai (SHA)'",
+      "expectedResult": ""
+    },
+    {
+      "action": "Select departure date '2025-12-16'",
+      "expectedResult": ""
+    },
+    {
+      "action": "Click 'Search'",
+      "expectedResult": "Show flight list for NKG→SHA on 2025-12-16"
+    }
   ],
   "createdAt": "2025-12-03T00:00:00.000Z",
   "updatedAt": "2025-12-03T00:00:00.000Z"
