@@ -1,0 +1,10 @@
+{
+  "name": "查看乘机流程",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "在机场攻略页面点击“乘机流程”入口", "expectedResult": "进入乘机流程展示页" },
+    { "action": "查看流程图（固定图片）", "expectedResult": "显示乘机流程示意图" }
+  ],
+  "createdAt": "2025-12-05T00:00:00.000Z",
+  "updatedAt": "2025-12-05T00:00:00.000Z"
+}
