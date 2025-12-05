@@ -1,0 +1,11 @@
+{
+  "name": "Filter Train Type D",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On train list page, open \"Train Type\" filters", "expectedResult": "" },
+    { "action": "Check only D (EMU)", "expectedResult": "" },
+    { "action": "Observe list refresh", "expectedResult": "Only D-type EMU trains are shown" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}

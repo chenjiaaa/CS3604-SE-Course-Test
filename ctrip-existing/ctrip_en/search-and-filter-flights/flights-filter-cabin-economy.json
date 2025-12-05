@@ -1,0 +1,13 @@
+{
+  "name": "Filter by cabin class Economy",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "Enter origin 'Shanghai (SHA)'", "expectedResult": "" },
+    { "action": "Enter destination 'Beijing (BJS)'", "expectedResult": "" },
+    { "action": "Select departure date '2025-12-16'", "expectedResult": "" },
+    { "action": "On the flight list page, open 'Cabin' dropdown", "expectedResult": "" },
+    { "action": "Select 'Economy'", "expectedResult": "Show economy class flights" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

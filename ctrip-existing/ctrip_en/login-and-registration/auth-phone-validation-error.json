@@ -1,0 +1,12 @@
+{
+  "name": "Validation error for phone number",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On the home flight search page, click 'Login'", "expectedResult": "Navigate to the login page" },
+    { "action": "Select 'Login with code'", "expectedResult": "" },
+    { "action": "Enter invalid phone number '12345' in the 'Mainland phone number' input", "expectedResult": "" },
+    { "action": "Click 'Send verification code'", "expectedResult": "Show validation error for invalid phone number" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Search Shanghai-Nanjing flights on 2025-12-15",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "Enter origin 'Shanghai (SHA)'", "expectedResult": "" },
+    { "action": "Enter destination 'Nanjing (NKG)'", "expectedResult": "" },
+    { "action": "Select departure date '2025-12-15'", "expectedResult": "" },
+    { "action": "Click 'Search'", "expectedResult": "Show flight list for SHA→NKG on 2025-12-15" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}
+

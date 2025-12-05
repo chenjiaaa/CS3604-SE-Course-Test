@@ -1,0 +1,10 @@
+{
+  "name": "Delete Passenger",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "In passenger list, click \"Delete\" for Zhang San", "expectedResult": "Show confirmation dialog" },
+    { "action": "Click \"Confirm\" in the dialog", "expectedResult": "Passenger removed from the list successfully" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}

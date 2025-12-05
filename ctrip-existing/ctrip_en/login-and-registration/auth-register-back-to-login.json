@@ -1,0 +1,10 @@
+{
+  "name": "Go back to login from register",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On the home flight search page, click 'Register'", "expectedResult": "Navigate to the registration page" },
+    { "action": "Click 'Back to login'", "expectedResult": "Navigate to the login page" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

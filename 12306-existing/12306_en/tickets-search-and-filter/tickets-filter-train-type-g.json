@@ -1,0 +1,11 @@
+{
+  "name": "Filter Train Type G",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On train list page, open \"Train Type\" filters", "expectedResult": "" },
+    { "action": "Check only G (High-speed)", "expectedResult": "" },
+    { "action": "Observe list refresh", "expectedResult": "Only G-type high-speed trains are shown" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}

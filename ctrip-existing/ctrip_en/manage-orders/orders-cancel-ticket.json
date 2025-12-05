@@ -1,0 +1,13 @@
+{
+  "name": "Cancel ticket",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On the home flight search page, click 'Honored user'", "expectedResult": "" },
+    { "action": "In the sidebar click 'Orders'", "expectedResult": "Show 'All orders' list" },
+    { "action": "Find an order with status 'Pending payment'", "expectedResult": "" },
+    { "action": "Click 'Cancel' on the order", "expectedResult": "Show confirmation dialog" },
+    { "action": "Click 'Confirm'", "expectedResult": "Order status updates to 'Cancelled'" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

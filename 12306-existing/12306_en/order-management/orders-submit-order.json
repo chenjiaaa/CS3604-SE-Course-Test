@@ -1,0 +1,11 @@
+{
+  "name": "Submit Order",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On order form, check passenger New User", "expectedResult": "" },
+    { "action": "Select seat Second Class for the passenger", "expectedResult": "" },
+    { "action": "Click \"Submit Order\"", "expectedResult": "Order created and navigate to details; status \"Pending Payment\"" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}

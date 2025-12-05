@@ -1,0 +1,13 @@
+{
+  "name": "Delete traveler",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On the home flight search page, click 'Honored user'", "expectedResult": "" },
+    { "action": "In the sidebar click 'Frequent info' - 'Frequent traveler info'", "expectedResult": "" },
+    { "action": "In the traveler list, click the delete button after 'Zhang San'", "expectedResult": "" },
+    { "action": "When the confirmation dialog pops up, click 'Confirm'", "expectedResult": "Prompt deletion success; return to traveler management; 'Zhang San' no longer shown" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}
+

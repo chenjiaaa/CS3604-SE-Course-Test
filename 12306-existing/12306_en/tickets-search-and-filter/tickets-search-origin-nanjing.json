@@ -1,0 +1,13 @@
+{
+  "name": "Search Tickets Departing from Nanjing",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On homepage ticket search, select One-way", "expectedResult": "" },
+    { "action": "Enter origin Nanjing", "expectedResult": "" },
+    { "action": "Enter destination Shanghai", "expectedResult": "" },
+    { "action": "Select departure date 2025-12-15", "expectedResult": "" },
+    { "action": "Click \"Search\"", "expectedResult": "Show Nanjing departures (e.g., G7001, D5401)" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}

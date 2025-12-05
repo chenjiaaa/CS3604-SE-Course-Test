@@ -1,0 +1,11 @@
+{
+  "name": "Prevent departing and arriving at same location",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "Enter origin 'Shanghai (SHA)'", "expectedResult": "" },
+    { "action": "Enter destination 'Shanghai (SHA)'", "expectedResult": "" },
+    { "action": "Click 'Search'", "expectedResult": "Show validation error preventing same origin and destination" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}

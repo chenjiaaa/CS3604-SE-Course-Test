@@ -1,0 +1,11 @@
+{
+  "name": "Filter Train Type K",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On train list page, open \"Train Type\" filters", "expectedResult": "" },
+    { "action": "Check only K (Fast)", "expectedResult": "" },
+    { "action": "Observe list refresh", "expectedResult": "Only K-type fast trains are shown" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}

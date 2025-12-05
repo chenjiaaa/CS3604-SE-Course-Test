@@ -1,0 +1,14 @@
+{
+  "name": "Prevent adding a duplicate traveler",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On the home flight search page, click 'Honored user'", "expectedResult": "" },
+    { "action": "In the sidebar click 'Frequent info' - 'Frequent traveler info'", "expectedResult": "" },
+    { "action": "Click 'Add'", "expectedResult": "" },
+    { "action": "Enter an existing traveler name and ID (e.g., 'Li Si' with 100111222233334445)", "expectedResult": "" },
+    { "action": "Click 'Save'", "expectedResult": "Show error that traveler already exists; do not add duplicate" }
+  ],
+  "createdAt": "2025-12-03T00:00:00.000Z",
+  "updatedAt": "2025-12-03T00:00:00.000Z"
+}
+

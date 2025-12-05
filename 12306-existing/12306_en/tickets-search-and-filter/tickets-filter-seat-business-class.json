@@ -1,0 +1,11 @@
+{
+  "name": "Filter Seat Business Class",
+  "url": "TARGET_URL",
+  "actions": [
+    { "action": "On train list page, open \"Seat Class\" filters", "expectedResult": "" },
+    { "action": "Check only Business Class", "expectedResult": "" },
+    { "action": "Observe list refresh", "expectedResult": "Only trains with Business Class are shown" }
+  ],
+  "createdAt": "2025-12-04T00:00:00.000Z",
+  "updatedAt": "2025-12-04T00:00:00.000Z"
+}
