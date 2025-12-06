@@ -4,6 +4,18 @@
   "url": "${CTRIP_URL}",
   "actions": [
     {
+      "action": "On homepage click \"Flights\"",
+      "expectedResult": "Navigate to flights homepage"
+    },
+    {
+      "action": "Click \"More Services\"",
+      "expectedResult": "Show more service entries"
+    },
+    {
+      "action": "Click \"Airport Guides\"",
+      "expectedResult": "Navigate to airport guides page"
+    },
+    {
       "action": "On airport guides page click hot airport \"Beijing Capital International Airport\"",
       "expectedResult": "Navigate to the airport detail page"
     },
