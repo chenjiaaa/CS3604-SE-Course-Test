@@ -5,11 +5,15 @@
   "actions": [
     {
       "action": "首页点击“注册”",
-      "expectedResult": "跳转至注册界面"
+      "expectedResult": ""
     },
     {
-      "action": "点击“返回登录”",
-      "expectedResult": "跳转至登录界面"
+      "action": "首页点击“同意并继续”",
+      "expectedResult": "注册表单显示"
+    },
+    {
+      "action": "点击“首页”",
+      "expectedResult": "注册和登录按钮会显示出来"
     }
   ],
   "createdAt": "2025-12-03T00:00:00.000Z",

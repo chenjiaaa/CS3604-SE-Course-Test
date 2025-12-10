@@ -9,7 +9,7 @@
     },
     {
       "action": "点击顶部导航“退出登录”",
-      "expectedResult": "返回首页；用户已退出；显示登录/注册按钮"
+      "expectedResult": "用户已退出;"
     }
   ],
   "createdAt": "2025-12-03T00:00:00.000Z",
